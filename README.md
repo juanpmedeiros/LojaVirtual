@@ -4,7 +4,8 @@
 Este projeto foi desenvolvido como objeto de estudo utilizando
 + como ferramenta ORM: EntityFramework Core
 + banco de dados: SQL Server
-+ arquitetura: MVC
++ arquitetura: MVC - Model View Controller
++ framework: .NET Framework
 
 <br/>
 
