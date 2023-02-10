@@ -25,7 +25,7 @@ Este projeto foi desenvolvido como objeto de estudo utilizando
 
 
 ## 🚀 Sobre mim
-Designer pela Uni-Goiás com pós-graduação pela Universidade Federal de Goiás. Atualmente estudando Análise e Desenvolvimento de Sistemas pela PUC-GO.
+Designer há 10 anos, com formação pela Uni-Goiás e pós-graduação pela Universidade Federal de Goiás. Atualmente estudando Análise e Desenvolvimento de Sistemas pela PUC-GO.
 <br/><br/>
 
 
