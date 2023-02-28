@@ -4,11 +4,11 @@ using LojaVirtual.Repositories.Interfaces;
 
 namespace LojaVirtual.Repositories
 {
-    public class CategoriaRespository : ICategoriaRepository
+    public class CategoriaRepository : ICategoriaRepository
     {
         private readonly AppDbContext _context;
 
-        public CategoriaRespository(AppDbContext context)
+        public CategoriaRepository(AppDbContext context)
         {
             _context = context;
         }

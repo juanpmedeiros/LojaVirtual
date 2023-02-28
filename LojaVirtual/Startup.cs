@@ -1,4 +1,6 @@
 ﻿using LojaVirtual.Context;
+using LojaVirtual.Repositories;
+using LojaVirtual.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -17,6 +19,9 @@ public class Startup
     {
         services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddTransient<ILanchesRepository, LancheRepository>();
+        services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
         services.AddControllersWithViews();
     }
